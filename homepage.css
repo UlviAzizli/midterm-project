@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+body {
+    font-size: 10px;
+    margin: 0px 10em 0px 10em;
+    padding: 0;
+    font-family: Roboto;
+    background-color: #F2F4FC;
+}
+
+@media (min-width: 1000px) {
+    body {
+        margin: 0px 100px 0px 150px;
+    }
+}
+
+@media (max-width: 999px) {
+    body {
+        margin: 0px 50px 0px 50px;
+    }
+}
+
+@media (max-width: 350px) {
+    body {
+        margin: 0;
+    }
+}
+
+h1 {
+    font-size: 4em;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+h3 {
+    font-size: 3em;
+    text-align: left;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 2.5em;
+    text-align: left;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 1em;
+    text-align: left;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bit20r {
+    font-size: 2em;
+    color: #6B708D;
+}
+
+/* NAV BARRE */
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 6em;
+}
+
+.menu li {
+    display: inline;
+    justify-content: space-evenly;
+    padding: 3em;
+    font-size: 1.4em;
+    font-weight: bold;
+
+}
+
+/* HERO SECTION */
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6em;
+    margin-bottom: 8em;
+}
+
+#description-circle{
+    font-size: 1.6em;
+}
+
+.empower-your li {
+    display: inline;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 0.4em 0.2em;
+    font-weight: bold;
+    color: rgb(222, 228, 231);
+}
+
+.happy-guy {
+    background-image: url(/project-assets/hero-section/hero-image.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0%;
+    padding: 0;
+    height: 100vh;
+    
+}
+
+
+.happy-guy img {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+#thumb-up {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+
+/* Logos */
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    filter: grayscale();
+    align-items: center;
+}
+
+.logos img {
+    margin: 1em;
+}
+
+/* RECENT PROJECTS */
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.projet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-style: none;
+    background-color: white;
+    margin-bottom: 2em;
+    padding: 0;
+
+}
+
+.projet img {
+    width: 100%;
+    max-width: 320px;
+    height: 50%;
+    background-color: #6B708D;
+}
+
+.body-intro-text {
+    padding: 3em;
+    color: #2b2b2e;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+
+.learn-more {
+    color: #072AC8;
+    font-size: 1.6em;
+
+}
+
+
+/* testimonial-section */
+
+
+.testimonial-section {
+    background-image: url(/project-assets/testimonial-section/orbit.png);
+    background-size: contain;
+    border-style: solid;
+    background-color: #03071a;
+}
+
+.testimonial-section img {
+    width: 15%;
+    height: 15%;
+}
+
+.line-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ECF7FF;
+    align-items: center;
+}
+
+.line-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.line-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.kristin {
+    color: #D1EDFF;
+}
+
+.booking {
+    color: #F2F4FC;
+}
+
+
+.miss-kristin {
+    width: 20em;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0.1em;
+
+}
+
+#kristin-img {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    float: left;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding: 0%;
+
+}
+
+.Circle {
+    padding: 3em;
+    color: #FFC600;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+.blue-button {
+    background-color: #072AC8;
+    border: none;
+    color: rgb(222, 228, 231);
+    padding: 1.5em 3.2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0.4em 0.2em;
+
+}
+
+/* OUR SERVICES  */
+
+
+.ourServices-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.service {
+    background-color: white;
+    margin: 2em;
+    padding: 2em;
+}
+
+.service img{
+    background-color: #D1EDFF;
+    border-radius: 60%;
+    padding: 3%;
+}
+
+
+/* YELLOW SECTION */
+
+#questions {
+    text-align: center;
+}
+
+.yellow-section {
+    background-size: contain;
+    background-color: #FFC600;
+    text-align: center;
+    padding-block: 10%;
+
+}
+#mail{
+    background-image: url(/project-assets/newsletter/icon/mail.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+@media (max-width: 600px) {
+   .hero-section, .projects-container, .ourServices-container{
+    flex-direction: column;
+   }
+}
+
+/* FOOTER LINKS */
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3em;
+}
+
+.footer-table td {
+    padding: 1em;
+    font-size: 1.6em;
+
+}
